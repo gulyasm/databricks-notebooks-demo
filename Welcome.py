@@ -12,4 +12,4 @@ print(f"Hello {dbutils.widgets.get('name')}")
 
 # COMMAND ----------
 
-
+print("hello")
