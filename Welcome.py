@@ -4,8 +4,12 @@
 
 # COMMAND ----------
 
-print("Hello")
+dbutils.widgets.text("name", "")
 
 # COMMAND ----------
 
+print(f"Hello {dbutils.widgets.get('name')}")
 
+# COMMAND ----------
+
+print("hello")
